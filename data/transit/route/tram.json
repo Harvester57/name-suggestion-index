@@ -160,8 +160,14 @@
     },
     {
       "displayName": "Euskotren Tranbia",
-      "id": "euskotrentranbia-1ff616",
-      "locationSet": {"include": ["es"]},
+      "id": "euskotrentranbia-f86a73",
+      "locationSet": {
+        "include": [
+          "es-bi.geojson",
+          "es-ss.geojson",
+          "es-vi.geojson"
+        ]
+      },
       "tags": {
         "network": "Euskotren Tranbia",
         "network:wikidata": "Q123955",
@@ -355,10 +361,11 @@
     },
     {
       "displayName": "Lokalny Transport Zbiorowy w Łodzi",
-      "id": "lokalnytransportzbiorowywlodzi-ba1938",
-      "locationSet": {"include": ["pl"]},
+      "id": "lokalnytransportzbiorowywlodzi-205da6",
+      "locationSet": {
+        "include": ["pl-10.geojson"]
+      },
       "matchNames": ["ltz łódź"],
-      "note": "ISO 3166-2 PL-10",
       "tags": {
         "network": "Lokalny Transport Zbiorowy w Łodzi",
         "network:wikidata": "Q133202246",
@@ -878,13 +885,9 @@
     },
     {
       "displayName": "TRAM Metropolità d'Alacant",
-      "id": "trammetropolitadalacant-da38ab",
+      "id": "trammetropolitadalacant-7da580",
       "locationSet": {
-        "include": [
-          [-0.129, 38.53, 25],
-          [-0.4881, 38.3436, 25],
-          [0.0812, 38.7742, 20]
-        ]
+        "include": ["es-a.geojson"]
       },
       "matchNames": [
         "tram",
@@ -938,8 +941,10 @@
     },
     {
       "displayName": "Tranvía de Zaragoza",
-      "id": "tranviadezaragoza-1ff616",
-      "locationSet": {"include": ["es"]},
+      "id": "tranviadezaragoza-e33f88",
+      "locationSet": {
+        "include": ["es-z.geojson"]
+      },
       "matchNames": ["zaragoza tram"],
       "tags": {
         "network": "Tranvía de Zaragoza",
@@ -1379,9 +1384,13 @@
     },
     {
       "displayName": "ZTM Warszawa",
-      "id": "ztmwarszawa-ba1938",
-      "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-10, PL=14",
+      "id": "ztmwarszawa-545edd",
+      "locationSet": {
+        "include": [
+          "pl-10.geojson",
+          "pl-14.geojson"
+        ]
+      },
       "tags": {
         "network": "ZTM Warszawa",
         "network:wikidata": "Q8066998",
@@ -1510,9 +1519,13 @@
     },
     {
       "displayName": "Комитет по Транспорту Санкт-Петербурга",
-      "id": "saintpetersburgtransportcommittee-f97856",
-      "locationSet": {"include": ["ru"]},
-      "note": "ISO 3166-2 RU-LEN, RU-SPE",
+      "id": "saintpetersburgtransportcommittee-abb09b",
+      "locationSet": {
+        "include": [
+          "ru-len.geojson",
+          "ru-spe.geojson"
+        ]
+      },
       "tags": {
         "network": "Комитет по Транспорту Санкт-Петербурга",
         "network:en": "Saint Petersburg Transport Committee",

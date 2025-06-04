@@ -137,8 +137,10 @@
     },
     {
       "displayName": "Agrienergia",
-      "id": "agrienergia-769454",
-      "locationSet": {"include": ["es"]},
+      "id": "agrienergia-525368",
+      "locationSet": {
+        "include": ["es-gi.geojson"]
+      },
       "tags": {
         "operator": "Agrienergia",
         "power": "line"
@@ -3005,7 +3007,8 @@
       "id": "enedis-34bf95",
       "locationSet": {"include": ["fr"]},
       "matchNames": [
-        "électricité réseau distribution france"
+        "électricité réseau distribution france",
+        "erdf"
       ],
       "tags": {
         "operator": "Enedis",
@@ -4727,8 +4730,13 @@
     },
     {
       "displayName": "INELFE",
-      "id": "inelfe-cd4900",
-      "locationSet": {"include": ["es", "fx"]},
+      "id": "inelfe-446ef9",
+      "locationSet": {
+        "include": [
+          "es-gi.geojson",
+          "fr-occ.geojson"
+        ]
+      },
       "tags": {
         "operator": "INELFE",
         "operator:wikidata": "Q16642975",
@@ -5502,8 +5510,10 @@
     },
     {
       "displayName": "Luminora Solar Dos",
-      "id": "luminorasolardos-769454",
-      "locationSet": {"include": ["es"]},
+      "id": "luminorasolardos-a92b96",
+      "locationSet": {
+        "include": ["es-mu.geojson"]
+      },
       "tags": {
         "operator": "Luminora Solar Dos",
         "power": "line"
@@ -9169,8 +9179,16 @@
     },
     {
       "displayName": "Viesgo Distribución Eléctrica",
-      "id": "viesgodistribucionelectrica-769454",
-      "locationSet": {"include": ["es"]},
+      "id": "viesgodistribucionelectrica-3aff86",
+      "locationSet": {
+        "include": [
+          "es-bu.geojson",
+          "es-lu.geojson",
+          "es-o.geojson",
+          "es-p.geojson",
+          "es-s.geojson"
+        ]
+      },
       "matchNames": [
         "viesgo",
         "viesgo distribución eléctrica, s.l"
@@ -9518,18 +9536,6 @@
       }
     },
     {
-      "displayName": "АО \"Янтарьэнерго\"",
-      "id": "f0d7c2-87df5b",
-      "locationSet": {
-        "include": ["ru-kgd.geojson"]
-      },
-      "tags": {
-        "operator": "АО \"Янтарьэнерго\"",
-        "operator:wikidata": "Q4538282",
-        "power": "line"
-      }
-    },
-    {
       "displayName": "АО СУЭНКО",
       "id": "8e6ee5-99800a",
       "locationSet": {"include": ["ru"]},
@@ -9677,6 +9683,17 @@
       }
     },
     {
+      "displayName": "МОЭСК",
+      "id": "8e35df-99800a",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао \"моэск\""],
+      "note": "ISO 3166-2 RU-MOS, RU-MOW",
+      "tags": {
+        "operator": "МОЭСК",
+        "power": "line"
+      }
+    },
+    {
       "displayName": "МРСК СК",
       "id": "591585-99800a",
       "locationSet": {"include": ["ru"]},
@@ -9716,26 +9733,6 @@
       "note": "ISO 3166-2 RU-KOS, RU-TVE, RU-YAR",
       "tags": {
         "operator": "МРСК-1",
-        "power": "line"
-      }
-    },
-    {
-      "displayName": "ОАО \"МОЭСК\"",
-      "id": "f37282-99800a",
-      "locationSet": {"include": ["ru"]},
-      "note": "ISO 3166-2 RU-MOS, RU-MOW",
-      "tags": {
-        "operator": "ОАО \"МОЭСК\"",
-        "power": "line"
-      }
-    },
-    {
-      "displayName": "ОАО «РусГидро»",
-      "id": "ef0fa4-99800a",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО «РусГидро»",
-        "operator:wikidata": "Q2035424",
         "power": "line"
       }
     },
@@ -9839,6 +9836,17 @@
       }
     },
     {
+      "displayName": "РусГидро",
+      "id": "70aabc-99800a",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао «русгидро»"],
+      "tags": {
+        "operator": "РусГидро",
+        "operator:wikidata": "Q2035424",
+        "power": "line"
+      }
+    },
+    {
       "displayName": "Сахалинэнерго",
       "id": "sakhalinenergo-99800a",
       "locationSet": {"include": ["ru"]},
@@ -9914,6 +9922,19 @@
       "tags": {
         "operator": "Черкасиобленерго",
         "operator:wikidata": "Q60986585",
+        "power": "line"
+      }
+    },
+    {
+      "displayName": "Янтарьэнерго",
+      "id": "1080b9-87df5b",
+      "locationSet": {
+        "include": ["ru-kgd.geojson"]
+      },
+      "matchNames": ["ао \"янтарьэнерго\""],
+      "tags": {
+        "operator": "Янтарьэнерго",
+        "operator:wikidata": "Q4538282",
         "power": "line"
       }
     },
@@ -10236,7 +10257,7 @@
     },
     {
       "displayName": "魏桥创业",
-      "id": "d9f62d-9dbdec",
+      "id": "shandongweiqiaopioneeringgroup-9dbdec",
       "locationSet": {
         "include": ["cn"],
         "exclude": ["hk", "mo"]
@@ -10244,7 +10265,9 @@
       "note": "ISO 3166-2 CN-SD",
       "tags": {
         "operator": "魏桥创业",
+        "operator:en": "Shandong Weiqiao Pioneering Group",
         "operator:wikidata": "Q17036101",
+        "operator:zh": "魏桥创业",
         "power": "line"
       }
     }

@@ -86,6 +86,23 @@
       }
     },
     {
+      "displayName": "Arabako Aldiriak / Cercanías Álava",
+      "id": "arabakoaldiriakcercaniasalava-c9c2c6",
+      "locationSet": {
+        "include": ["es-vi.geojson"]
+      },
+      "note": "around Q14318",
+      "tags": {
+        "network": "Arabako Aldiriak / Cercanías Álava",
+        "network:es": "Cercanías Álava",
+        "network:eu": "Arabako Aldiriak",
+        "network:wikidata": "Q134617299",
+        "operator": "Renfe",
+        "operator:wikidata": "Q2476154",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Arnhem-Nijmegen",
       "id": "arnhemnijmegen-948004",
       "locationSet": {"include": ["nl"]},
@@ -149,12 +166,9 @@
     },
     {
       "displayName": "Bilboko Aldiriak / Cercanías Bilbao",
-      "id": "bilbokoaldiriakcercaniasbilbao-7d4fdb",
+      "id": "bilbokoaldiriakcercaniasbilbao-a4f257",
       "locationSet": {
-        "include": [
-          [-2.8, 43.1, 30],
-          [-3, 43.3, 30]
-        ]
+        "include": ["es-bi.geojson"]
       },
       "note": "around Q31913753",
       "tags": {
@@ -201,8 +215,10 @@
     },
     {
       "displayName": "Cercanías Asturias",
-      "id": "cercaniasasturias-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniasasturias-4dd046",
+      "locationSet": {
+        "include": ["es-o.geojson"]
+      },
       "tags": {
         "network": "Cercanías Asturias",
         "network:wikidata": "Q1054739",
@@ -213,8 +229,10 @@
     },
     {
       "displayName": "Cercanías Cádiz",
-      "id": "cercaniascadiz-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniascadiz-2a8694",
+      "locationSet": {
+        "include": ["es-ca.geojson"]
+      },
       "tags": {
         "network": "Cercanías Cádiz",
         "network:wikidata": "Q1054745",
@@ -224,9 +242,84 @@
       }
     },
     {
+      "displayName": "Cercanías Cantabria",
+      "id": "cercaniascantabria-f28461",
+      "locationSet": {
+        "include": ["es-s.geojson"]
+      },
+      "matchNames": ["cercanías santander"],
+      "tags": {
+        "network": "Cercanías Cantabria",
+        "network:wikidata": "Q1054773",
+        "operator": "Renfe",
+        "operator:wikidata": "Q2476154",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Cercanías Cartagena",
+      "id": "cercaniascartagena-d69803",
+      "locationSet": {
+        "include": ["es-mu.geojson"]
+      },
+      "matchNames": ["feve", "renfe feve"],
+      "tags": {
+        "network": "Cercanías Cartagena",
+        "network:wikidata": "Q28181968",
+        "operator": "Renfe Cercanías AM",
+        "operator:wikidata": "Q1143007",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Cercanías Ferrol",
+      "id": "cercaniasferrol-171d67",
+      "locationSet": {
+        "include": ["es-c.geojson"]
+      },
+      "matchNames": [
+        "cercanías galicia",
+        "feve",
+        "proximidades",
+        "renfe feve"
+      ],
+      "tags": {
+        "network": "Cercanías Ferrol",
+        "network:wikidata": "Q107428536",
+        "operator": "Renfe Cercanías AM",
+        "operator:wikidata": "Q1143007",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Cercanías León",
+      "id": "cercaniasleon-cc5d06",
+      "locationSet": {
+        "include": [
+          "es-le.geojson",
+          "es-p.geojson"
+        ]
+      },
+      "matchNames": ["feve", "renfe feve"],
+      "tags": {
+        "network": "Cercanías León",
+        "network:wikidata": "Q107428854",
+        "operator": "Renfe Cercanías AM",
+        "operator:wikidata": "Q1143007",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Cercanías Madrid",
-      "id": "cercaniasmadrid-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniasmadrid-2b07e3",
+      "locationSet": {
+        "include": [
+          "es-gu.geojson",
+          "es-m.geojson",
+          "es-sg.geojson",
+          "es-to.geojson"
+        ]
+      },
       "tags": {
         "network": "Cercanías Madrid",
         "network:wikidata": "Q1054785",
@@ -251,8 +344,14 @@
     },
     {
       "displayName": "Cercanías Murcia/Alicante",
-      "id": "cercaniasmurciaalicante-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniasmurciaalicante-ec7a72",
+      "locationSet": {
+        "include": [
+          "es-a.geojson",
+          "es-al.geojson",
+          "es-mu.geojson"
+        ]
+      },
       "tags": {
         "network": "Cercanías Murcia/Alicante",
         "network:wikidata": "Q650688",
@@ -262,21 +361,11 @@
       }
     },
     {
-      "displayName": "Cercanías Santander",
-      "id": "cercaniassantander-8dd936",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "network": "Cercanías Santander",
-        "network:wikidata": "Q1054773",
-        "operator": "Renfe",
-        "operator:wikidata": "Q2476154",
-        "route": "train"
-      }
-    },
-    {
       "displayName": "Cercanías Sevilla",
-      "id": "cercaniassevilla-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniassevilla-6aae9e",
+      "locationSet": {
+        "include": ["es-se.geojson"]
+      },
       "tags": {
         "network": "Cercanías Sevilla",
         "network:wikidata": "Q2747014",
@@ -287,8 +376,13 @@
     },
     {
       "displayName": "Cercanías València",
-      "id": "cercaniasvalencia-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "cercaniasvalencia-9c1d09",
+      "locationSet": {
+        "include": [
+          "es-cs.geojson",
+          "es-v.geojson"
+        ]
+      },
       "matchNames": [
         "rodalia de valència",
         "rodalia valència"
@@ -303,9 +397,9 @@
     },
     {
       "displayName": "Cercanías Zaragoza",
-      "id": "cercaniaszaragoza-cab0e1",
+      "id": "cercaniaszaragoza-7be0c4",
       "locationSet": {
-        "include": [[-0.9, 41.7, 25]]
+        "include": ["es-z.geojson"]
       },
       "tags": {
         "network": "Cercanías Zaragoza",
@@ -448,8 +542,10 @@
     },
     {
       "displayName": "Donostiako Aldiriak / Cercanías San Sebastián",
-      "id": "donostiakoaldiriakcercaniassansebastian-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "donostiakoaldiriakcercaniassansebastian-1cde0a",
+      "locationSet": {
+        "include": ["es-ss.geojson"]
+      },
       "tags": {
         "network": "Donostiako Aldiriak / Cercanías San Sebastián",
         "network:es": "Cercanías San Sebastián",
@@ -545,9 +641,14 @@
     },
     {
       "displayName": "Euskotren Trena",
-      "id": "euskotrentrena-4b3475",
+      "id": "euskotrentrena-4d1b4f",
       "locationSet": {
-        "include": ["es", "fr-naq.geojson"]
+        "include": [
+          "es-bi.geojson",
+          "es-ss.geojson",
+          "es-vi.geojson",
+          "fr-naq.geojson"
+        ]
       },
       "tags": {
         "network": "Euskotren Trena",
@@ -1209,8 +1310,10 @@
     },
     {
       "displayName": "Metro del Baix Llobregat",
-      "id": "metrodelbaixllobregat-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "metrodelbaixllobregat-ad7890",
+      "locationSet": {
+        "include": ["es-b.geojson"]
+      },
       "tags": {
         "network": "Metro del Baix Llobregat",
         "network:wikidata": "Q2381339",
@@ -1938,9 +2041,15 @@
     },
     {
       "displayName": "Rodalies de Catalunya",
-      "id": "rodaliesdecatalunya-922827",
+      "id": "rodaliesdecatalunya-3b6e4f",
       "locationSet": {
-        "include": ["es", "fr-occ.geojson"]
+        "include": [
+          "es-b.geojson",
+          "es-gi.geojson",
+          "es-l.geojson",
+          "es-t.geojson",
+          "fr-occ.geojson"
+        ]
       },
       "matchNames": [
         "cercanías de cataluña",
@@ -2035,8 +2144,8 @@
     },
     {
       "displayName": "Serveis Ferroviaris de Mallorca",
-      "id": "serveisferroviarisdemallorca-8dd936",
-      "locationSet": {"include": ["es"]},
+      "id": "serveisferroviarisdemallorca-4a0481",
+      "locationSet": {"include": ["es-ib"]},
       "matchNames": [
         "servicios ferroviarios de mallorca"
       ],
@@ -2446,13 +2555,9 @@
     },
     {
       "displayName": "TRAM Metropolità d'Alacant",
-      "id": "trammetropolitadalacant-2f7cc7",
+      "id": "trammetropolitadalacant-ed9d53",
       "locationSet": {
-        "include": [
-          [-0.129, 38.53, 25],
-          [-0.4881, 38.3436, 25],
-          [0.0812, 38.7742, 20]
-        ]
+        "include": ["es-a.geojson"]
       },
       "matchNames": [
         "tram",

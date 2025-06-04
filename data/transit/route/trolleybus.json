@@ -176,9 +176,10 @@
     },
     {
       "displayName": "Lublin",
-      "id": "lublin-ac5bc5",
-      "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-06",
+      "id": "lublin-e4f380",
+      "locationSet": {
+        "include": ["pl-06.geojson"]
+      },
       "tags": {
         "network": "Lublin",
         "network:wikidata": "Q27686568",
@@ -573,6 +574,20 @@
       }
     },
     {
+      "displayName": "TRAM Castellón",
+      "id": "transportemetropolitanodelaplana-bb8e7c",
+      "locationSet": {
+        "include": ["es-cs.geojson"]
+      },
+      "tags": {
+        "network": "Transporte Metropolitano de la Plana",
+        "network:short": "TRAM Castellón",
+        "network:wikidata": "Q1123731",
+        "operator": "Via Reservada",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "Translink (British Columbia)",
       "id": "translink-c54f8a",
       "locationSet": {
@@ -851,9 +866,13 @@
     },
     {
       "displayName": "Комитет по Транспорту Санкт-Петербурга",
-      "id": "saintpetersburgtransportcommittee-ea4a14",
-      "locationSet": {"include": ["ru"]},
-      "note": "ISO 3166-2 RU-LEN, RU-SPE",
+      "id": "saintpetersburgtransportcommittee-c8d96d",
+      "locationSet": {
+        "include": [
+          "ru-len.geojson",
+          "ru-spe.geojson"
+        ]
+      },
       "tags": {
         "network": "Комитет по Транспорту Санкт-Петербурга",
         "network:en": "Saint Petersburg Transport Committee",

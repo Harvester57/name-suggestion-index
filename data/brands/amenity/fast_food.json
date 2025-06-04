@@ -3333,6 +3333,21 @@
       }
     },
     {
+      "displayName": "Farmer J",
+      "id": "farmerj-8bf212",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Farmer J",
+        "brand:wikidata": "Q118611346",
+        "cuisine": "regional",
+        "name": "Farmer J",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Farsh",
       "id": "farsh-26312c",
       "locationSet": {
@@ -4265,19 +4280,6 @@
         "brand:wikidata": "Q1571798",
         "cuisine": "pizza",
         "name": "Hallo Pizza",
-        "takeaway": "yes"
-      }
-    },
-    {
-      "displayName": "Hampi Pizza Corner",
-      "id": "hampipizzacorner-658eea",
-      "locationSet": {"include": ["001"]},
-      "note": "had enough instances in OSM as of 2025-03-10 to be automatically included in the NSI, but overpass-turbo returned no results on 2025-03-28",
-      "tags": {
-        "amenity": "fast_food",
-        "brand": "Hampi Pizza Corner",
-        "cuisine": "pizza",
-        "name": "Hampi Pizza Corner",
         "takeaway": "yes"
       }
     },
@@ -8433,13 +8435,14 @@
     },
     {
       "displayName": "Pollolandia",
-      "id": "pollolandia-057a99",
+      "id": "pollolandia-5bda58",
       "locationSet": {
-        "include": ["cr", "gt", "hn"]
+        "include": ["cr", "gt", "hn", "sv"]
       },
       "tags": {
         "amenity": "fast_food",
         "brand": "Pollolandia",
+        "brand:wikidata": "Q134611065",
         "cuisine": "chicken",
         "name": "Pollolandia",
         "takeaway": "yes"

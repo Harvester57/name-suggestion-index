@@ -92,6 +92,17 @@
       }
     },
     {
+      "displayName": "ABBank",
+      "id": "abbank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ABBank",
+        "brand:wikidata": "Q10800288",
+        "name": "ABBank"
+      }
+    },
+    {
       "displayName": "ABN AMRO",
       "id": "abnamro-fb21a8",
       "locationSet": {"include": ["nl"]},
@@ -3333,6 +3344,23 @@
       }
     },
     {
+      "displayName": "Bar Harbor Bank & Trust",
+      "id": "barharborbankandtrust-37bc8c",
+      "locationSet": {
+        "include": [
+          "us-me.geojson",
+          "us-nh.geojson",
+          "us-vt.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bar Harbor Bank & Trust",
+        "brand:wikidata": "Q134622900",
+        "name": "Bar Harbor Bank & Trust"
+      }
+    },
+    {
       "displayName": "Barclays",
       "id": "barclays-d3e17e",
       "locationSet": {
@@ -3384,18 +3412,6 @@
         "brand": "BAWAG PSK",
         "brand:wikidata": "Q379938",
         "name": "BAWAG PSK"
-      }
-    },
-    {
-      "displayName": "BB&T",
-      "id": "bbandt-ea2e2d",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "amenity": "bank",
-        "brand": "BB&T",
-        "brand:wikidata": "Q95984154",
-        "name": "BB&T",
-        "official_name": "Branch Banking and Trust Company"
       }
     },
     {
@@ -7786,6 +7802,17 @@
       }
     },
     {
+      "displayName": "HDBank",
+      "id": "hdbank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "HDBank",
+        "brand:wikidata": "Q10800273",
+        "name": "HDBank"
+      }
+    },
+    {
       "displayName": "HDFC Bank",
       "id": "hdfcbank-34f411",
       "locationSet": {"include": ["in"]},
@@ -9075,6 +9102,17 @@
       }
     },
     {
+      "displayName": "LPBank",
+      "id": "lpbank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "LPBank",
+        "brand:wikidata": "Q15729124",
+        "name": "LPBank"
+      }
+    },
+    {
       "displayName": "Luminor Bank",
       "id": "luminorbank-3ce14c",
       "locationSet": {
@@ -9192,6 +9230,17 @@
         "brand": "Maybank",
         "brand:wikidata": "Q1364018",
         "name": "Maybank"
+      }
+    },
+    {
+      "displayName": "MB",
+      "id": "mb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "MB",
+        "brand:wikidata": "Q10800269",
+        "name": "MB"
       }
     },
     {
@@ -9576,6 +9625,17 @@
       }
     },
     {
+      "displayName": "MSB",
+      "id": "msb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "MSB",
+        "brand:wikidata": "Q10800277",
+        "name": "MSB"
+      }
+    },
+    {
       "displayName": "MTB Bank",
       "id": "mtbbank-c8dc19",
       "locationSet": {"include": ["ua"]},
@@ -9612,6 +9672,17 @@
         "brand": "Nainital Bank",
         "brand:wikidata": "Q6959715",
         "name": "Nainital Bank"
+      }
+    },
+    {
+      "displayName": "Nam A Bank",
+      "id": "namabank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Nam A Bank",
+        "brand:wikidata": "Q10800266",
+        "name": "Nam A Bank"
       }
     },
     {
@@ -9804,6 +9875,18 @@
       }
     },
     {
+      "displayName": "Ngân hàng Chính sách xã hội",
+      "id": "nganhangchinhsachxahoi-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "matchNames": ["vbsp"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Ngân hàng Chính sách xã hội",
+        "brand:wikidata": "Q10800262",
+        "name": "Ngân hàng Chính sách xã hội"
+      }
+    },
+    {
       "displayName": "NH농협은행",
       "id": "nhbank-10d607",
       "locationSet": {"include": ["kr"]},
@@ -9851,15 +9934,28 @@
     },
     {
       "displayName": "NLB",
-      "id": "nlb-c48f09",
+      "id": "nlb-155ab9",
       "locationSet": {
-        "include": ["ba", "me", "rs", "si", "xk"]
+        "include": ["ba", "si", "xk"]
       },
       "tags": {
         "amenity": "bank",
         "brand": "NLB",
         "brand:wikidata": "Q1481509",
         "name": "NLB"
+      }
+    },
+    {
+      "displayName": "NLB banka Podgorica",
+      "id": "nlbbankapodgorica-529d4b",
+      "locationSet": {"include": ["me"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "NLB",
+        "brand:wikidata": "Q6428302",
+        "name": "NLB banka Podgorica",
+        "name:sr": "НЛБ банка Подгорица",
+        "name:sr-Latn": "NLB banka Podgorica"
       }
     },
     {
@@ -10060,6 +10156,17 @@
         "brand:wikidata": "Q1291630",
         "name": "Obwaldner Kantonalbank",
         "short_name": "OKB"
+      }
+    },
+    {
+      "displayName": "OCB",
+      "id": "ocb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCB",
+        "brand:wikidata": "Q7102288",
+        "name": "OCB"
       }
     },
     {
@@ -10433,19 +10540,6 @@
       }
     },
     {
-      "displayName": "People's United Bank",
-      "id": "peoplesunitedbank-9baf35",
-      "locationSet": {
-        "include": ["us-ct.geojson"]
-      },
-      "tags": {
-        "amenity": "bank",
-        "brand": "People's United Bank",
-        "brand:wikidata": "Q7165802",
-        "name": "People's United Bank"
-      }
-    },
-    {
       "displayName": "Peoples Bank (Flemingsburg, KY)",
       "id": "peoplesbank-7bce6d",
       "locationSet": {
@@ -10649,6 +10743,19 @@
       }
     },
     {
+      "displayName": "Poppy Bank",
+      "id": "poppybank-cf92b8",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "Poppy Bank",
+        "brand:wikidata": "Q134689249",
+        "name": "Poppy Bank"
+      }
+    },
+    {
       "displayName": "Popular",
       "id": "popular-ea2e2d",
       "locationSet": {"include": ["us"]},
@@ -10699,7 +10806,7 @@
       "tags": {
         "amenity": "bank",
         "brand": "Poštová banka",
-        "brand:wikidata": "Q7237158",
+        "brand:wikidata": "Q55873977",
         "name": "Poštová banka"
       }
     },
@@ -11006,6 +11113,17 @@
       }
     },
     {
+      "displayName": "PVcomBank",
+      "id": "pvcombank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "PVcomBank",
+        "brand:wikidata": "Q65171780",
+        "name": "PVcomBank"
+      }
+    },
+    {
       "displayName": "QNB",
       "id": "qnb-1ee5d6",
       "locationSet": {
@@ -11029,15 +11147,18 @@
       }
     },
     {
-      "displayName": "QNB Finansbank",
-      "id": "qnbfinansbank-a30806",
+      "displayName": "QNB (Türkiye)",
+      "id": "qnb-a30806",
       "locationSet": {"include": ["tr"]},
-      "matchNames": ["finansbank", "qnb"],
+      "matchNames": [
+        "finansbank",
+        "qnb finansbank"
+      ],
       "tags": {
         "amenity": "bank",
-        "brand": "QNB Finansbank",
-        "brand:wikidata": "Q1416237",
-        "name": "QNB Finansbank"
+        "brand": "QNB",
+        "brand:wikidata": "Q1136759",
+        "name": "QNB"
       }
     },
     {
@@ -11605,6 +11726,17 @@
       }
     },
     {
+      "displayName": "Saigonbank",
+      "id": "saigonbank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Saigonbank",
+        "brand:wikidata": "Q10800275",
+        "name": "Saigonbank"
+      }
+    },
+    {
       "displayName": "Salem Five Bank",
       "id": "salemfivebank-1bf72c",
       "locationSet": {
@@ -11786,6 +11918,21 @@
       }
     },
     {
+      "displayName": "SCB",
+      "id": "scb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "matchNames": [
+        "saigon commercial bank",
+        "scb bank"
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "SCB",
+        "brand:wikidata": "Q101575325",
+        "name": "SCB"
+      }
+    },
+    {
       "displayName": "Schaffhauser Kantonalbank",
       "id": "schaffhauserkantonalbank-74b036",
       "locationSet": {"include": ["ch"]},
@@ -11856,6 +12003,17 @@
         "brand:wikidata": "Q625531",
         "name": "SC제일은행",
         "name:ko": "SC제일은행"
+      }
+    },
+    {
+      "displayName": "SeABank",
+      "id": "seabank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "SeABank",
+        "brand:wikidata": "Q10800276",
+        "name": "SeABank"
       }
     },
     {
@@ -12014,6 +12172,17 @@
         "name": "Sharjah Islamic Bank",
         "name:ar": "مصرف الشارقة الإسلامي",
         "name:en": "Sharjah Islamic Bank"
+      }
+    },
+    {
+      "displayName": "SHB",
+      "id": "shb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "SHB",
+        "brand:wikidata": "Q124465825",
+        "name": "SHB"
       }
     },
     {
@@ -12247,26 +12416,6 @@
       }
     },
     {
-      "displayName": "South State Bank",
-      "id": "southstatebank-7bc186",
-      "locationSet": {
-        "include": [
-          "us-al.geojson",
-          "us-fl.geojson",
-          "us-ga.geojson",
-          "us-nc.geojson",
-          "us-sc.geojson",
-          "us-va.geojson"
-        ]
-      },
-      "tags": {
-        "amenity": "bank",
-        "brand": "South State Bank",
-        "brand:wikidata": "Q55633597",
-        "name": "South State Bank"
-      }
-    },
-    {
       "displayName": "Southern Bank (Midwest USA)",
       "id": "southernbank-c8bf03",
       "locationSet": {
@@ -12312,6 +12461,28 @@
         "brand": "Southside Bank",
         "brand:wikidata": "Q134008655",
         "name": "Southside Bank"
+      }
+    },
+    {
+      "displayName": "SouthState Bank",
+      "id": "southstatebank-3dcfe8",
+      "locationSet": {
+        "include": [
+          "us-al.geojson",
+          "us-co.geojson",
+          "us-fl.geojson",
+          "us-ga.geojson",
+          "us-nc.geojson",
+          "us-sc.geojson",
+          "us-tx.geojson",
+          "us-va.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "bank",
+        "brand": "SouthState Bank",
+        "brand:wikidata": "Q55633597",
+        "name": "SouthState Bank"
       }
     },
     {
@@ -12706,18 +12877,6 @@
       }
     },
     {
-      "displayName": "SunTrust",
-      "id": "suntrust-ea2e2d",
-      "locationSet": {"include": ["us"]},
-      "matchNames": ["suntrust bank"],
-      "tags": {
-        "amenity": "bank",
-        "brand": "SunTrust",
-        "brand:wikidata": "Q181507",
-        "name": "SunTrust"
-      }
-    },
-    {
       "displayName": "Supervielle",
       "id": "supervielle-841353",
       "locationSet": {"include": ["ar"]},
@@ -13057,6 +13216,17 @@
       }
     },
     {
+      "displayName": "TPBank",
+      "id": "tpbank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "TPBank",
+        "brand:wikidata": "Q7801033",
+        "name": "TPBank"
+      }
+    },
+    {
       "displayName": "Tripura Gramin Bank",
       "id": "tripuragraminbank-34f411",
       "locationSet": {"include": ["in"]},
@@ -13078,6 +13248,9 @@
       "id": "truist-ea2e2d",
       "locationSet": {"include": ["us"]},
       "matchNames": [
+        "bb&t",
+        "suntrust",
+        "suntrust bank",
         "truist bank",
         "truist financial"
       ],
@@ -13508,20 +13681,6 @@
       }
     },
     {
-      "displayName": "United Bank (Connecticut)",
-      "id": "unitedbank-9baf35",
-      "locationSet": {
-        "include": ["us-ct.geojson"]
-      },
-      "note": "Merged into People's United Bank (Q7165802) in 2019, see https://en.wikipedia.org/wiki/United_Financial_Bancorp",
-      "tags": {
-        "amenity": "bank",
-        "brand": "United Bank",
-        "brand:wikidata": "Q16959074",
-        "name": "United Bank"
-      }
-    },
-    {
       "displayName": "United Bank (Mid-Atlantic USA)",
       "id": "unitedbank-d6a32a",
       "locationSet": {
@@ -13812,6 +13971,17 @@
       }
     },
     {
+      "displayName": "VDB",
+      "id": "vdb-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "VDB",
+        "brand:wikidata": "Q10800267",
+        "name": "VDB"
+      }
+    },
+    {
       "displayName": "VeloBank",
       "id": "velobank-68054b",
       "locationSet": {"include": ["pl"]},
@@ -13823,6 +13993,17 @@
       }
     },
     {
+      "displayName": "VIB",
+      "id": "vib-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "VIB",
+        "brand:wikidata": "Q49054349",
+        "name": "VIB"
+      }
+    },
+    {
       "displayName": "Victoriabank",
       "id": "victoriabank-59fea4",
       "locationSet": {"include": ["md"]},
@@ -13831,6 +14012,17 @@
         "brand": "Victoriabank",
         "brand:wikidata": "Q4052675",
         "name": "Victoriabank"
+      }
+    },
+    {
+      "displayName": "VietABank",
+      "id": "vietabank-a28d32",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "VietABank",
+        "brand:wikidata": "Q10800279",
+        "name": "VietABank"
       }
     },
     {
@@ -15077,6 +15269,19 @@
         "name": "МТС Банк",
         "name:en": "MTS Bank",
         "name:ru": "МТС Банк"
+      }
+    },
+    {
+      "displayName": "НЛБ Банка Скопје",
+      "id": "nlb-e9ea45",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "NLB",
+        "brand:wikidata": "Q20566771",
+        "name": "НЛБ Банка Скопје",
+        "name:mk": "НЛБ Банка Скопје",
+        "name:sq": "NLB Banka Skopje"
       }
     },
     {

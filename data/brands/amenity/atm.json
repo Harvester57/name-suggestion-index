@@ -2,7 +2,6 @@
   "properties": {
     "path": "brands/amenity/atm",
     "skipCollection": true,
-    "preserveTags": ["^name"],
     "exclude": {"generic": ["^atm$"]}
   },
   "items": [
@@ -303,6 +302,21 @@
       }
     },
     {
+      "displayName": "India1 ATM",
+      "id": "india1atm-ad0527",
+      "locationSet": {"include": ["in"]},
+      "matchNames": [
+        "india one",
+        "india one atm",
+        "india1"
+      ],
+      "tags": {
+        "amenity": "atm",
+        "brand": "India1 ATM",
+        "brand:wikidata": "Q134601469"
+      }
+    },
+    {
       "displayName": "Instacoin",
       "id": "instacoin-ddac74",
       "locationSet": {"include": ["ca"]},
@@ -499,17 +513,24 @@
       }
     },
     {
-      "displayName": "Тинькофф Банк",
-      "id": "tinkoffbank-da35c8",
+      "displayName": "Т-Банк",
+      "id": "tbank-da35c8",
       "locationSet": {"include": ["ru"]},
-      "matchNames": ["tinkoff", "тинькофф"],
+      "matchNames": [
+        "tinkoff",
+        "tinkoff bank",
+        "тинькофф",
+        "тинькофф банк",
+        "בנק טינקוף",
+        "بانک تینکوف"
+      ],
       "tags": {
         "amenity": "atm",
-        "brand": "Тинькофф Банк",
-        "brand:en": "Tinkoff Bank",
-        "brand:fa": "بانک تینکوف",
-        "brand:he": "בנק טינקוף",
-        "brand:ru": "Тинькофф Банк",
+        "brand": "Т-Банк",
+        "brand:en": "T-Bank",
+        "brand:fa": "تی-بانک",
+        "brand:he": "טי-בנק",
+        "brand:ru": "Т-Банк",
         "brand:wikidata": "Q4457878"
       }
     },

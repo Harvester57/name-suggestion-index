@@ -871,8 +871,10 @@
     },
     {
       "displayName": "Sícoris Club",
-      "id": "sicorisclub-5e9b04",
-      "locationSet": {"include": ["es"]},
+      "id": "sicorisclub-c65025",
+      "locationSet": {
+        "include": ["es-l.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "Sícoris Club"
@@ -1199,9 +1201,10 @@
     },
     {
       "displayName": "ООО\"ССК НЕВСКИЙ\"",
-      "id": "535547-d0edcf",
-      "locationSet": {"include": ["ru"]},
-      "note": "ISO 3166-2 RU-LEN",
+      "id": "535547-126718",
+      "locationSet": {
+        "include": ["ru-len.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "ООО\"ССК НЕВСКИЙ\""

@@ -627,8 +627,14 @@
     },
     {
       "displayName": "Generalitat Valenciana",
-      "id": "generalitatvalenciana-afa509",
-      "locationSet": {"include": ["es"]},
+      "id": "generalitatvalenciana-0f6363",
+      "locationSet": {
+        "include": [
+          "es-a.geojson",
+          "es-cs.geojson",
+          "es-v.geojson"
+        ]
+      },
       "tags": {
         "amenity": "kindergarten",
         "operator": "Generalitat Valenciana",
@@ -651,9 +657,10 @@
     },
     {
       "displayName": "Gmina Lublin",
-      "id": "gminalublin-6b0035",
-      "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-06",
+      "id": "gminalublin-ee8ecc",
+      "locationSet": {
+        "include": ["pl-06.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
         "operator": "Gmina Lublin",

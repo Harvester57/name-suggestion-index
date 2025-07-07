@@ -1,27 +1,27 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    commit-message:
-    prefix: "actions"
-    reviewers:
-    - "Harvester57"
-    assignees:
-    - "Harvester57"
-    schedule:
-      # Check for updates to GitHub Actions every weekday
-      interval: "cron"
-      cronjob: "0 18 * * *"
-      timezone: "Europe/Paris"
-    groups:
-      # Specify a name for the group, which will be used in pull request titles
-      # and branch names
-      npm-prod-dependencies:
-        applies-to: version-updates
-        dependency-type: "production"
-      npm-dev-dependencies:
-        dependency-type: "development"
-        applies-to: version-updates
+- package-ecosystem: "npm"
+  directory: "/"
+  commit-message:
+  prefix: "actions"
+  reviewers:
+  - "Harvester57"
+  assignees:
+  - "Harvester57"
+  schedule:
+    # Check for updates to GitHub Actions every weekday
+    interval: "cron"
+    cronjob: "0 18 * * *"
+    timezone: "Europe/Paris"
+  groups:
+    # Specify a name for the group, which will be used in pull request titles
+    # and branch names
+    npm-prod-dependencies:
+      applies-to: version-updates
+      dependency-type: "production"
+    npm-dev-dependencies:
+      dependency-type: "development"
+      applies-to: version-updates
 - package-ecosystem: "github-actions"
   directory: "/"
   commit-message:

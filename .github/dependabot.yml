@@ -3,11 +3,11 @@ updates:
 - package-ecosystem: "npm"
   directory: "/"
   commit-message:
-  prefix: "actions"
+    prefix: "actions"
   reviewers:
-  - "Harvester57"
+    - "Harvester57"
   assignees:
-  - "Harvester57"
+    - "Harvester57"
   schedule:
     # Check for updates to GitHub Actions every weekday
     interval: "cron"

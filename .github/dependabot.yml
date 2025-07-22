@@ -16,6 +16,9 @@ updates:
   groups:
     # Specify a name for the group, which will be used in pull request titles
     # and branch names
+    ignore:
+    - dependency-name: "*"
+      update-types: [ "version-update:semver-major" ]
     npm-prod-dependencies:
       applies-to: version-updates
       dependency-type: "production"

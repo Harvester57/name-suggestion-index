@@ -19,15 +19,12 @@ updates:
     npm-prod-dependencies:
       applies-to: version-updates
       dependency-type: "production"
-      ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-major" ]
     npm-dev-dependencies:
       dependency-type: "development"
       applies-to: version-updates
-      ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-major" ]
+  ignore:
+    - dependency-name: "*"
+      update-types: [ "version-update:semver-major" ]
 - package-ecosystem: "github-actions"
   directory: "/"
   commit-message:
